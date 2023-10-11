@@ -22,5 +22,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header("Content-type", "application/json")
 
         self.end_headers()
-        self.wfile.write("a".encode("utf-8"))
+        self.wfile.write("ai".encode("utf-8"))
         return
